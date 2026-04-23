@@ -1,0 +1,40 @@
+{
+    "author": "dasdom",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "poly-numbers",
+    "pebble": {
+        "displayName": "Poly Numbers One",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/ChangaOne-Regular.ttf",
+                    "name": "CHANGA_ONE_75",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery",
+            "gabbro",
+            "flint"
+        ],
+        "uuid": "6986118a-a9ae-4fbc-8512-faf0dec2c075",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
